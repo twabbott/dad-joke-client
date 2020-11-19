@@ -1,0 +1,31 @@
+.status {
+  height: 16px;  
+}
+
+main#list {
+  width: 75vw;
+  margin: auto;
+}
+
+main#list section {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgb(211, 211, 211);
+  height: 35px;
+}
+
+main#list section button {
+  float: right;
+  width: 75px;
+}
+
+main#list section p {
+  margin: 0px;
+}
+
+main#list section p.answer {
+  margin: 3px 0 0 15px;
+  font-style: italic;
+}
